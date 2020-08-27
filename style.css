@@ -1,0 +1,283 @@
+body {
+    font-family: sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+a {
+    color: #000;
+    cursor: pointer;
+}
+
+.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #d33a2c;
+    line-height: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+#left {
+    float: left;
+    margin-left: 35px;
+}
+
+#center {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+    width: 50vw;
+}
+
+#center button {
+    color: #fff;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#center button:hover {
+    background-color: rgb(27, 20, 20);
+}
+
+#right {
+    float: right;
+    margin:20px 70px;
+    border-radius: 100px;
+}
+
+#right input {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+}
+
+#one, #two {
+    position: relative;
+    height: 600px;
+    width: 50%;
+    border: 1px solid transparent;
+}
+
+#one { 
+    float: left;
+    top: 80px;
+    right: 2px;
+    background-color: #bc3428;
+}
+
+#one p {
+    position: relative;
+    left: 40px;
+    top: 100px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#two {
+    bottom: 522px;
+    float: right;
+    left: 2px;
+    background-color: #c7372a;
+}
+
+#two p {
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 85%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#three, #four {
+    position: relative;
+    height: 500px;
+    width: 50%;
+}
+
+#three {
+    top: 680px;
+    right: 2px;
+    background-color: #b13125;
+}
+
+#three p {
+    position: relative;
+    left: 40px;
+    bottom: 500px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 90%;
+}
+
+#four {
+    top: 160px;
+    left: 673px;
+    background-color: #bc3428;
+}
+
+#four p {
+    position: relative;
+    left: 40px;
+    bottom: 1px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 95%
+}
+
+#posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    top: 1200px;
+    background-color: #f6f3f2;
+}
+
+#posts li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    height: 500px;
+    margin-right: 20px;
+    font-size: 20px;
+    width: 30%;
+    text-align: justify;
+    color: #333;
+    line-height: 30px;
+}
+
+#posts a { color: black;}
+
+li:hover {
+    background-color: gainsboro;
+}
+
+.full {
+    position: absolute;
+    top: 4170px;
+}
+
+.full p, .full h4 {
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    bottom: 140px;
+    width: 970px;
+}
+
+.type {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 3400px;
+    font-size: 20px;
+    height: 750px; 
+    background-color: #1b71bb;
+}
+
+.links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    top: 4350px;
+    font-size: 20px;
+}
+
+.links li {
+    background: none;
+    display: grid;
+    list-style: none;
+    width: 38vw;
+    text-align: justify;
+    padding: 60px 40px;
+    line-height: 30px;
+}
+
+#featured {
+    height: 300px; 
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 5680px;
+    background-color: #d33a2c;
+}
+
+#featured p, #featured a {
+    position: relative; 
+    line-height: 30px;
+    left: 40px;
+    width: 95%;
+}
+
+#guides {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 4800px;
+    justify-content: space-evenly;
+    line-height: 30px;
+}
+
+#guides p {
+    width: 500px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#guides button {
+    width: 250px;
+    height: 40px;
+    border-radius: 11px;
+    position: relative;
+    top: 80px;
+}
+
+#topics {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: gray;
+    height: 500px;
+    position: absolute;
+    top: 7380px;
+}
+
+.category {
+    width: 90%;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.category, .category li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.category a {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    line-height: 30px;
+}
